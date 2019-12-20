@@ -1,4 +1,4 @@
-S
+SRP
 It refers to single responsibitiy principle. In which a class should have one and only one responsibility.Example: Problems:
 Class A handles lot of operations.
 Suppose any of the following change happens in future like :
