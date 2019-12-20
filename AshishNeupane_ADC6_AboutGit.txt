@@ -1,0 +1,39 @@
+About Git
+
+
+Git clone:
+	Git clone is a Git command line utility which is used to target an existing repository and create a clone, 
+or copy of the target repository. In this page we'll discuss extended configuration options and common use 
+cases of git clone.
+
+
+Git pull:
+	Git pull is a Git command used to update the local version of a repository from a remote.
+Git pull fetches the new commits and merges (git merge) these into your local branch.
+
+
+Git push:
+	The git push command is used to upload local repository content to a remote repository. 
+Pushing is how you transfer commits from your local repository to a remote repo. 
+
+
+Git Branch:
+	Branching is a feature available in most modern version control systems.In Git, branches are a part 
+of your everyday development process. Git branches are effectively a pointer to a snapshot of your changes.
+When you want to add a new feature or fix a bug. No matter how big or how smal.you spawn a new branch 
+to encapsulate your changes. 
+
+
+Git merge:
+	Merging is Git's way of putting a forked history back together again. 
+The git merge command lets you take the independent lines of development created by git branch and integrate
+them into a single branch. Note that all of the commands presented below merge into the current branch. 
+The current branch will be updated to reflect the merge, but the target branch will be completely unaffected.
+
+
+Merge conflict:
+	Merging and conflicts are a common part of the Git experience.Conflicts generally arise when two 
+people have changed the same lines in a file, or if one developer deleted a file while another developer was 
+modifying it. In these cases, Git cannot automatically determine what is correct. Conflicts only affect the 
+developer conducting the merge, the rest of the team is unaware of the conflict. Git will mark the file as being
+ conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.
