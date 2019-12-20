@@ -1,0 +1,20 @@
+SOLID is one of the most popular sets of design principles in object-oriented software development. It’s a mnemonic acronym for the following five design principles:
+
+Single Responsibility Principle:
+Open/Closed Principle
+Liskov Substitution Principle
+Interface Segregation Principle
+
+Dependency Inversion
+All of them are broadly used and worth knowing. But in this first post of my series about the SOLID principles, I will focus on the first one: the Single Responsibility Principle.
+
+Example:
+The "Liskov's Substitution Principle" is just a way of ensuring that
+inheritance is used correctly
+• Ostrich is a Bird (definitely it is!) and hence it inherits the Bird class.
+Now, can it fly?
+
+Solution:
+So, even if in real world this seems natural, in the class design, Ostrich
+should not inherit the Bird class, and there should be a separate class
+for birds that can't really fly and Ostrich should inherit that. 
