@@ -1,0 +1,11 @@
+SRP
+It refers to single responsibitiy principle. In which a class should have one and only one responsibility.Example: Problems:
+Class A handles lot of operations.
+Suppose any of the following change happens in future like :
+New database
+Adopt ORM to manage queries in the database
+Change in output structure
+So in all the cases the above class would be changed.
+Which might affect the implementation of the other two operations as  well.
+Solution:
+	So ideally according to SRP there should be three classes  each having the single responsibility.
